@@ -1,0 +1,13 @@
+# Example crontab for your backup
+# Format: MIN HOUR DAY MONTH WEEKDAY COMMAND
+
+# Run every day at 2 AM
+0 2 * * * /data/data/com.termux/files/home/devops-journey/day8-cron/auto-backup.sh
+
+# Run every 5 minutes (for testing)
+# */5 * * * * /data/data/com.termux/files/home/devops-journey/day8-cron/auto-backup.sh
+
+# Cron Cheatsheet:
+# * * * * * = every minute
+# 0 * * * * = every hour
+# 0 0 * * * = every midnight
