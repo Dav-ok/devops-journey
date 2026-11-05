@@ -1,2 +1,1 @@
-# devops-journey
-Learning Development 
+# My DevOps Journey
